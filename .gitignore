@@ -1,0 +1,7 @@
+node_modules/
+cache
+package-lock.json
+.vscode
+db.json
+Test.vue
+yarn.lock
