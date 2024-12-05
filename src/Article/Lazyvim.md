@@ -29,14 +29,11 @@ layout: doc
 
 ## 第四步(显示不出图标)
 
-1. 下载一个[Nerd Font 字体](https://www.nerdfonts.com/font-downloads)安装
-
-<a href="/Article/Lazyvim/CaskaydiaMonoNerdFont-Bold.ttf" download="CaskaydiaMonoNerdFont-Bold.ttf">作者使用的字体</a>
+1. 下载一个[Nerd Font 字体](https://www.nerdfonts.com/font-downloads)并安装
 
 2. 在终端选择刚刚下载安装的字体
 
-
-
+[本人使用字体](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/ComicShannsMono.zip)
 
 
 
