@@ -4,26 +4,27 @@ export default defineConfig({
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }]
   ],
+  base: '/ZCabin',
   lastUpdated: true,
   title: "ZCabin",
-  srcDir:'../src/',
-  locales:{
-    root:{
+  srcDir: '../src/',
+  locales: {
+    root: {
       label: '简体中文',
       lang: 'zh',
     },
-    en:{
+    en: {
       label: 'English',
       lang: 'en',
       link: '/en/'
     }
   },
   themeConfig: {
-    outline:{
-      label:'NavigationBar',
-      level:[1,10]
+    outline: {
+      label: 'NavigationBar',
+      level: [1, 10]
     },
-    logo:'/favicon.ico',
+    logo: '/favicon.ico',
     nav: [
       { text: 'Article', link: '/Article/' },
       { text: 'Document', link: '/Document/' },
