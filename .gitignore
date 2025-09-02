@@ -5,3 +5,4 @@ package-lock.json
 db.json
 Test.vue
 yarn.lock
+.DS_Store
