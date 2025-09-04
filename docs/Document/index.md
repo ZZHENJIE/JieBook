@@ -3,10 +3,10 @@ layout: home
 
 features:
   - icon:
-      src: /Document/OpenInfoTrader/Logo.ico
-    title: Open Info Trader
-    details: 使用Tauri 与 Vite构建的股票信息获取软件
-    link: ./OpenInfoTrader/
+      src: /Document/DTBox/Logo.ico
+    title: DTBox
+    details: 简单的日内交易员信息获取程序
+    link: ./DTBox/
   - icon:
       src: /Document/ZMBOX/Logo.ico
     title: ZMBOX
