@@ -4,3 +4,4 @@ cache
 db.json
 Test.vue
 .DS_Store
+dist
