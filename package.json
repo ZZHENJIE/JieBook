@@ -1,5 +1,5 @@
 {
-  "packageManager": "npm@10.2.0",
+  "license": "MIT",
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
