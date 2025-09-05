@@ -2,7 +2,7 @@ import { DefaultTheme, defineConfig, UserConfig } from 'vitepress'
 
 const defaultConfig: UserConfig = {
   head: [
-    ['link', { rel: 'icon', href: '/JieBook/favicon.ico' }]
+    ['link', { rel: 'icon', href: '/favicon.ico' }]
   ],
   title: "JieBook",
 }
@@ -22,7 +22,6 @@ const defaultThemeConfig: DefaultTheme.Config = {
 
 export default defineConfig({
   lastUpdated: true,
-  base: '/JieBook',
   locales: {
     root: {
       label: '简体中文',
