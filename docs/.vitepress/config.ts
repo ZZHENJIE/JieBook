@@ -4,8 +4,6 @@ const defaultConfig: UserConfig = {
   head: [
     ['link', { rel: 'icon', href: '/JieBook/favicon.ico' }]
   ],
-  base: '/JieBook',
-  lastUpdated: true,
   title: "JieBook",
 }
 
@@ -23,6 +21,8 @@ const defaultThemeConfig: DefaultTheme.Config = {
 }
 
 export default defineConfig({
+  lastUpdated: true,
+  base: '/JieBook',
   locales: {
     root: {
       label: '简体中文',

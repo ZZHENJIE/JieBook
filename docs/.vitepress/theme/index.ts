@@ -3,5 +3,7 @@ import './custom.css'
 
 export default {
     extends: DefaultTheme,
+    themeConfig: {
 
+    }
 }
