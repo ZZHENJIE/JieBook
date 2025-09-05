@@ -19,5 +19,5 @@ layout: doc
 
 ## 游戏cfg
 
-<a href="/Game/CS/cfg.zip" download="cfg.zip">下载文件</a> 
+<a href="/Article/CS2/cfg.zip" download="cfg.zip">下载文件</a> 
 文件存放路径: `Steam\userdata\{ID}\730\local` 替换cfg文件夹
