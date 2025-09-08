@@ -9,7 +9,7 @@ layout: doc
 ### 1. [安装](https://v2.hysteria.network/zh/docs/getting-started/Installation/)
 
 ### 2. 配置
-配置文件目录 `/etc/hysteria//config.yaml` 完整服务端[配置](https://v2.hysteria.network/zh/docs/advanced/Full-Server-Config/#__tabbed_1_1)
+配置文件目录 `/etc/hysteria/config.yaml` 完整服务端[配置](https://v2.hysteria.network/zh/docs/advanced/Full-Server-Config/#__tabbed_1_1)
 
 #### 无域名无TLS证书配置示例
 
