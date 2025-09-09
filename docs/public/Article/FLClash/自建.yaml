@@ -1,0 +1,28 @@
+port: 7890
+external-controller: 127.0.0.1:9090
+mode: rule
+log-level: info
+
+proxies:
+  - name: "Hysteria2"
+    type: hysteria2
+    server: 103.112.184.193
+    port: 443
+    password: "54PVTL48Bg0uFLgyTb9idEED"
+    alpn:
+      - h3
+    sni: hy2
+    skip-cert-verify: true
+    bandwidth:
+      up: "10mbps"
+      down: "10mbps"
+
+proxy-groups:
+  - name: "PROXY"
+    type: select
+    proxies:
+      - "Hysteria2"
+
+rules:
+  - GEOIP,CN,DIRECT
+  - MATCH,PROXY
