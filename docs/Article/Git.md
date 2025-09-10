@@ -1,9 +1,10 @@
 ---
-title: Git 命令
 layout: doc
 ---
 
-# [官网](https://git-scm.com/)
+# Git 安装与使用
+
+## [官网](https://git-scm.com/)
 
 ## 初始化config
 * 使用git config -l 可列出git当前配置信息  

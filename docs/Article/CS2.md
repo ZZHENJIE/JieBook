@@ -1,7 +1,8 @@
 ---
-title: CS2 设置
 layout: doc
 ---
+
+# CS2 设置
 
 ## 画质设置
 

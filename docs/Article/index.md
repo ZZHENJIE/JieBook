@@ -4,26 +4,30 @@ layout: home
 features:
   - icon:
       src: /Image/Logo/FLClash.ico
-    title: FLClash安装与使用
+    title: FLClash
     link: ./FLClash.md
   - icon:
       src: /Image/Logo/Git.svg
-    title: Git 命令
+    title: Git
     link: ./Git.md
   - icon:
       src: /Image/Logo/Lazyvim.svg
-    title: Lazyvim 安装使用
+    title: Lazyvim
     link: ./Lazyvim.md
   - icon:
       src: /Image/Logo/Linux.svg
-    title: Linux 命令
+    title: Linux
     link: ./Linux.md
   - icon:
       src: /Image/Logo/Hysteria2.svg
-    title: Hysteria2安装与使用
+    title: Hysteria2
     link: ./Hysteria2.md
   - icon:
+      src: /Image/Logo/Puppeteer.png
+    title: Puppeteer
+    link: ./Puppeteer.md
+  - icon:
       src: /Image/Logo/CS2.svg
-    title: CS2 设置
+    title: CS2
     link: ./CS2.md
 ---

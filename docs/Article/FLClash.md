@@ -2,7 +2,7 @@
 layout: doc
 ---
 
-# FLClash安装与使用
+# FLClash 安装与使用
 
 ## 1. [安装](https://github.com/chen08209/FlClash/releases)
 ## 2. 打开配置页面
