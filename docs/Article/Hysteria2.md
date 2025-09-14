@@ -2,7 +2,7 @@
 layout: doc
 ---
 
-# Hysteria2 安装与使用
+# [Hysteria2](https://github.com/apernet/hysteria)安装与使用
 
 ## 服务端
 

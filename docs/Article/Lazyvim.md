@@ -2,9 +2,7 @@
 layout: doc
 ---
 
-# Lazyvim 安装与使用
-
-## [官网](https://lazyvim-github-io.vercel.app/)
+# [Lazyvim](https://github.com/LazyVim/LazyVim)安装与使用
 
 ## 第一步 安装[neovim](https://github.com/neovim/neovim/blob/master/INSTALL.md)
 

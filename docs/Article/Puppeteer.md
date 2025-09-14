@@ -2,6 +2,6 @@
 layout: doc
 ---
 
-# Puppeteer 安装与使用
+# [Puppeteer](https://github.com/puppeteer/puppeteer)安装与使用
 
 

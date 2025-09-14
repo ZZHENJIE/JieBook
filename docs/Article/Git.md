@@ -2,9 +2,7 @@
 layout: doc
 ---
 
-# Git 安装与使用
-
-## [官网](https://git-scm.com/)
+# [Git](https://github.com/git/git)安装与使用
 
 ## 初始化config
 * 使用git config -l 可列出git当前配置信息  
