@@ -12,7 +12,7 @@ layout: doc
 2. 可选 安装正版验证Mod
     - 其他版本使用 [LSP](https://github.com/rikka0w0/LanServerProperties)
     - 1.21.4以上使用 [MWP](https://github.com/Satxm/mcwifipnp)
-3. 配置客户端FRP 并连接服务器
+3. 配置客户端FRP并连接服务器
 
 ## CS2
 

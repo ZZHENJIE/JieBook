@@ -4,8 +4,9 @@ layout: doc
 
 # [FRP](https://github.com/fatedier/frp)使用
 
-## 服务端 示例配置
+## 服务端
 
+### 示例配置
 ```toml
 bindPort = 7000
 maxPortsPerClient = 10
@@ -19,7 +20,7 @@ token = "secure_token"
 [log]
 level = "info"
 maxDays = 3
-to = "./frps.log"
+to = "root/frp/frps.log"
 
 #网页管理面板
 [webServer]
@@ -34,5 +35,18 @@ start = 7010
 end = 7020
 ```
 
-## 客户端 推荐使用GUI管理器 [Frpmgr](https://github.com/koho/frpmgr)
+### service文件示例
+```
+[Unit]
+Description=Frps
+
+[Service]
+ExecStart=/root/frp/frps -c /root/frp/frps.toml
+
+[Install]
+WantedBy=multi-user.target
+```
+
+## 客户端
+* GUI管理器 [Frpmgr](https://github.com/koho/frpmgr)
 
