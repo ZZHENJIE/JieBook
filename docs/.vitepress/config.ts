@@ -31,6 +31,7 @@ export default defineConfig({
         nav: [
           { text: '文章', link: '/Article/' },
           { text: '文档', link: '/Document/' },
+          { text: '笔记', link: '/Notes/' },
         ],
         ...defaultThemeConfig
       }
@@ -44,6 +45,7 @@ export default defineConfig({
         nav: [
           { text: 'Article', link: '/en/Article/' },
           { text: 'Document', link: '/en/Document/' },
+          { text: 'Notes', link: '/en/Notes/' },
         ],
         ...defaultThemeConfig
       }
