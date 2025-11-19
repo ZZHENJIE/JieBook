@@ -12,9 +12,4 @@ features:
     title: Web3
     details: Web3 世界自理解笔记
     link: ./Web3/
-  - icon:
-      src: /Image/Logo/Slint.svg
-    title: Slint
-    details: 一个跨平台的GUI框架使用笔记
-    link: ./Slint/
 ---
