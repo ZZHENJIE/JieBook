@@ -3,7 +3,7 @@ layout: home
 
 features:
   - icon:
-      src: /Image/Logo/DTBox.ico
+      src: /Image/Logo/DTBox.png
     title: DTBox
     details: 简单的日内交易员信息获取程序
     link: ./DTBox/

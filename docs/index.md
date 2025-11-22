@@ -10,7 +10,7 @@ hero:
 
 features:
   - icon:
-      src: /Image/Logo/DTBox.ico
+      src: /Image/Logo/DTBox.png
       alt: DTBox图标
     title: DTBox
     details: 专业的日内交易数据可视化工具
