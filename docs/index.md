@@ -6,7 +6,7 @@ hero:
   text: "这里是思想的存档库 📚"
   tagline: 记录是为了更好地前行 | 书写是为了更清晰地思考
   image:
-    src: /Image/Author.png
+    src: /favicon.png
 
 features:
   - icon:
