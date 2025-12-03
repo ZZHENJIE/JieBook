@@ -15,6 +15,7 @@ export default withMermaid({
   head: [["link", { rel: "icon", href: "/favicon.png" }]],
   title: "JieBook",
   lastUpdated: true,
+  base: "/",
 
   mermaid: {
     theme: "default",
