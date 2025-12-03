@@ -22,3 +22,32 @@ features:
     details: 跨平台轻量级音乐播放器 (QT6开发)
     link: https://github.com/ZZHENJIE/ZMBOX
 ---
+
+```mermaid
+---
+config:
+  theme: redux
+---
+mindmap
+  root((知识链))
+      Rust
+        Tokio
+        Sqlx
+        Axum
+        Reqwest
+        GPUI
+      PostgreSQL
+      JS/TS
+        Vue
+      C
+        SDL2
+      C++
+        ImGui
+        QT6
+```
+
+<style>
+.VPHero .VPImage {
+  width: 256px;
+}
+</style>

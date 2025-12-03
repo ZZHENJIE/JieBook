@@ -1,5 +1,11 @@
 /* .vitepress/theme/custom.css */
 
+.mermaid {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0; /* 上下留点间距 */
+}
+
 ::-webkit-scrollbar {
     width: 6px;
 }
