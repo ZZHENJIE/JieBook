@@ -11,8 +11,8 @@ const themeConfig: DefaultTheme.Config = {
 };
 
 export default withMermaid({
-  head: [["link", { rel: "icon", href: "/favicon.png" }]],
   title: "JieBook",
+  head: [["link", { rel: "icon", href: "/JieBook/favicon.png" }]],
   lastUpdated: true,
   base: "/JieBook/",
   themeConfig: {
