@@ -8,7 +8,6 @@ const themeConfig: DefaultTheme.Config = {
     { icon: "github", link: "https://github.com/ZZHENJIE" },
     { icon: "bilibili", link: "https://space.bilibili.com/1362205077" },
   ],
-  search: { provider: "local" },
 };
 
 export default withMermaid({
@@ -16,6 +15,9 @@ export default withMermaid({
   title: "JieBook",
   lastUpdated: true,
   base: "/JieBook/",
+  themeConfig: {
+    search: { provider: "local" },
+  },
 
   mermaid: {
     theme: "default",
