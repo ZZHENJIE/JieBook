@@ -33,6 +33,11 @@ features:
     details: 高性能的代理工具,是v2ray的超集,内置 VLESS 并扩展 Reality、XTLS、XHTTP 等传输模式
     link: ./Xray.md
   - icon:
+      src: /Image/Logo/Nginx.png
+    title: Nginx
+    details: 高性能的Web服务器和反向代理服务器,支持负载均衡、缓存等功能
+    link: ./Nginx.md
+  - icon:
       src: /Image/Logo/Puppeteer.png
     title: Puppeteer
     details: Node.js库,提供高级API控制Headless Chrome/Chromium
