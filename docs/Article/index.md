@@ -23,11 +23,6 @@ features:
     details: Linux操作系统常用命令和系统管理指南
     link: ./Linux.md
   - icon:
-      src: /Image/Logo/Hysteria2.svg
-    title: Hysteria2
-    details: 高性能的QUIC协议代理工具,专为恶劣网络环境优化
-    link: ./Hysteria2.md
-  - icon:
       src: /Image/Logo/Xray.png
     title: Xray
     details: 高性能的代理工具,是v2ray的超集,内置 VLESS 并扩展 Reality、XTLS、XHTTP 等传输模式
