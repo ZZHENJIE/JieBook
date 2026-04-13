@@ -122,16 +122,13 @@ xray uuid
     "loglevel": "warning"
   },
   "inbounds": [{
-    "port": 443,
+    "port": "服务端口",
     "protocol": "vless",
     "settings": {
       "clients": [
         { "id": "生成的UUID" }
       ],
       "decryption": "none"
-    },
-    "streamSettings": {
-      "network": "tcp"
     }
   }],
   "outbounds": [{
@@ -154,69 +151,6 @@ proxies:
     uuid: 生成的UUID
     network: tcp
     tls: false
-
-proxy-groups:
-  - name: "PROXY"
-    type: select
-    proxies:
-      - "Vless-TCP"
-
-rules:
-  - GEOIP,CN,DIRECT
-  - MATCH,PROXY
-```
-
-### Hysteria2
-
-#### 生成参数
-1. 生成自签名证书
-```bash
-openssl req -x509 -nodes -newkey ec -pkeyopt ec_paramgen_curve:prime256v1 -keyout hysteria.key -out hysteria.crt -subj "/CN=hy2" -days 36500
-```
-
-#### 服务端配置
-```json
-{
-  "log": {
-    "loglevel": "warning"
-  },
-  "inbounds": [{
-    "port": 443,
-    "protocol": "hysteria",
-    "settings": {
-      "version":2,
-      "masquerade":{
-          "type": "proxy",
-          "url": "https://www.microsoft.com",
-          "rewriteHost": true
-      },
-      "users": [{ "password": "设置的密码" }],
-      "tls": {
-        "cert": "生成的自签名证书 .crt路径",
-        "key": "生成的自签名证书 .key路径"
-      }
-    }
-  }],
-  "outbounds": [{
-    "protocol": "freedom",
-    "tag": "direct"
-  }]
-}
-```
-
-#### 客户端配置
-```yaml
-port: 7890
-external-controller: 127.0.0.1:9090
-mode: rule
-
-proxies:
-  - name: "Hysteria2"
-    type: hysteria2
-    server: 服务端IP
-    port: 服务端口
-    password: 设置的密码
-    skip-cert-verify: false
 
 proxy-groups:
   - name: "PROXY"
